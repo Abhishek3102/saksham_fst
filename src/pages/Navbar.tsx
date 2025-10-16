@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
           ))}
 
           {/* Signup/Login Button */}
-          <Link to="/login">
+          {/* <Link to="/login">
             <motion.button
               className="bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-2 rounded-full text-lg font-semibold shadow-lg transition-all"
               whileHover={{ scale: 1.05 }}
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
             >
               Signup / Login
             </motion.button>
-          </Link>
+          </Link> */}
           {/* Dark Mode Button */}
           <ThemeToggle />
         </div>
