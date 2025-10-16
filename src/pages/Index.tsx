@@ -32,13 +32,13 @@ function Home() {
             >
               Own Your Hustle, Secure Your Future, Thrive on Your Terms!
             </motion.p>
-            <Link to="/login">
+            <Link to="/financial">
               <motion.button
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-full flex items-center gap-2 text-lg font-semibold shadow-lg transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Register Now
+                Start Now
               </motion.button>
             </Link>
             {/* Features Grid */}
